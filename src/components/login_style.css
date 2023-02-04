@@ -1,0 +1,64 @@
+body{
+    background:linear-gradient(to left, rgb(55, 101, 192), rgb(184, 117, 117));
+    opacity: 0.99;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    color:rgb(8, 2, 2);
+  }
+ 
+  
+  .container{
+    display:flex;
+      align-items:center;
+      justify-content:center;
+      height:110vh;
+      width:100%;
+  }
+    .form-box{
+        width:380px;
+        height:450px;
+        background-color:black;
+        padding:20px;
+        display:flex;
+        flex-direction:column;
+        justify-content:flex-start;
+        opacity:0.5;
+        border-radius:2%;
+    }
+  .header-form{
+    margin-bottom:35px;
+  }
+  
+  .message{
+    display:flex;
+    justify-content:space-between
+  }
+  .social{
+    display:flex;
+    justify-content:space-around;
+    padding:30px;
+  }
+  
+  .social i{
+    font-size:35px;
+  }
+  
+  .social i:hover{
+    color:red;
+    cursor:pointer;
+  }
+  .logo-img{
+    width:100px;
+    height:100px;
+    margin-left:120px;
+    height: auto;
+  }
+
+  .text-center{
+    margin-top: 1em;
+    
+    text-align:center;
+    color: aliceblue;
+    
+  }
