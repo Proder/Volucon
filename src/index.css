@@ -53,12 +53,17 @@ section {
   background-color: #f69700;
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 10px 70px;
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
   margin: 10px;
+  margin-left:0px;
+  justify-content: center;
   
+}
+.left{
+  margin-left: 18%;
 }
 
 .card {
@@ -81,4 +86,32 @@ section {
   padding: 20px;
   margin: 1px 40px;
   height: auto;
+}
+.quote{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 600;
+  font-size: large;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.quote-text{
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+.butn{
+  background-color: #060c26;
+  color: white;
+  border: none;
+  padding: 10px 70px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+  margin-left:65px;
+  
 }

@@ -2,6 +2,8 @@ import Navbar from './components/navbar';
 import Landing from './components/Landing';
 import Login from './components/login';
 import Signup from './components/Signup';
+import Dashboard from './components/dashboard';
+import Profile from './components/Profile';
 import {
   BrowserRouter as Router,
   Routes,
@@ -10,13 +12,16 @@ import {
 function App() {
   return (
     <div className="App">
-      <Routes> 
-          <Route exact path="/login"
+      <Navbar />
+      <Routes>  
+          <Route exact path="/"
           element={<Login/>}/>
           <Route exact path="/Signup"
           element={<Signup/>} />
-          <Route exact path="/"
-          element={<Landing/>} />
+          <Route exact path="/dashboard"
+          element={<Dashboard/>} />
+          <Route exact path="/profile"
+          element={<Profile/>} />
       </Routes>
     </div>
   );

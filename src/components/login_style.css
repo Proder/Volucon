@@ -1,5 +1,5 @@
 body{
-    background:linear-gradient(to left, rgb(55, 101, 192), rgb(184, 117, 117));
+    background:linear-gradient(to left, rgb(55, 101, 192), rgb(220, 170, 223));
     opacity: 0.99;
     margin:0;
     padding:0;
@@ -12,7 +12,7 @@ body{
     display:flex;
       align-items:center;
       justify-content:center;
-      height:110vh;
+      height:100vh;
       width:100%;
   }
     .form-box{
@@ -34,20 +34,7 @@ body{
     display:flex;
     justify-content:space-between
   }
-  .social{
-    display:flex;
-    justify-content:space-around;
-    padding:30px;
-  }
   
-  .social i{
-    font-size:35px;
-  }
-  
-  .social i:hover{
-    color:red;
-    cursor:pointer;
-  }
   .logo-img{
     width:100px;
     height:100px;
@@ -57,8 +44,18 @@ body{
 
   .text-center{
     margin-top: 1em;
-    
+    margin-right: 10%;
     text-align:center;
     color: aliceblue;
     
+  }
+
+  .input{
+    border: 0;
+		margin-bottom: 10px;
+		padding: 15px;
+		font-size: 1rem;
+		font-family: Nunito, sans-serif;
+		color: #000;
+		border-radius: 5px;
   }

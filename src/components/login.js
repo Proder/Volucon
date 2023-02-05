@@ -1,4 +1,4 @@
-import React,{ useState } from "react";
+import React, { useState } from "react";
 import './login_style.css';
 import { useNavigate } from "react-router-dom";
 
@@ -27,7 +27,7 @@ export default function Login() {
                     <form onSubmit={handleSubmit}>
 
                         <div className="input">
-                            <div>
+                            <div className="email54">
                                 <label htmlFor="email"></label>
                                 <input
                                     type="email"
@@ -35,23 +35,28 @@ export default function Login() {
                                     placeholder='Email'
                                     value={email}
                                     onChange={(event) => setEmail(event.target.value)}
+                                    required
                                 />
                             </div>
 
-                            <div className="input-group mb-3">
 
-                                <div>
-                                    <label htmlFor="password">  </label>
-                                    <input
-                                        type="password"
-                                        id="password"
-                                        placeholder='Password'
-                                        value={password}
-                                        onChange={(event) => setPassword(event.target.value)}
-                                    />
-                                </div>
+                            <div className="pass54">
+                                <label htmlFor="password">  </label>
+                                <input
+                                    type="password"
+                                    id="password"
+                                    placeholder='Password'
+                                    value={password}
+                                    onChange={(event) => setPassword(event.target.value)}
+                                    required
+                                />
                             </div>
-                            <button type="button" className="btn ">LOGIN</button>
+
+
+                        </div>
+                        <div className="left">
+
+                            <button type="button" className="btn">LOGIN</button>
                         </div>
                         <div className="message">
                             <p className="text-center">Don't have an account?<button type="button" className="btn" onClick={signPage}>Sign Up</button></p>
